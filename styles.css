@@ -1,11 +1,12 @@
 :root {
   --primary-color: #385170;
-  --secondary-color: #ffcbcb;
+  --secondary-color: #e7eaf6;
+  --hero-color: #ffb5b5;
 }
 
 .intro {
   background: var(--primary-color);
-  color: var(--secondary-color);
+  color: var(--hero-color);
   text-align: center;
   padding-top: 40px;
   padding-bottom: 20px;
@@ -14,7 +15,6 @@
   font-family: "Nunito", sans-serif;
 }
 p {
-  text-align: center;
   margin: 0;
 }
 .project {
@@ -24,18 +24,71 @@ p {
 body {
   background-color: var(--secondary-color);
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
 .ankara-link {
   background-color: var(--primary-color);
-  color: var(--secondary-color);
+  color: var(--hero-color);
   padding: 10px;
   border-radius: 4px;
   text-decoration: none;
 }
+.ankara-link:hover {
+  color: var(--secondary-color);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+.weather-link {
+  background-color: var(--primary-color);
+  color: var(--hero-color);
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.weather-link:hover {
+  color: var(--secondary-color);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
 
-.ankara-page {
+.ankara-page,
+.weather-page {
   font-size: 35px;
   text-align: center;
 }
-.my-project {
+
+.navbar-grey {
+  background-color: var(--primary-color);
+}
+.about-me {
+  color: var(--hero-color);
+}
+button {
+  border-color: var(--hero-color);
+}
+.mb-5 {
   font-size: 40px;
+  text-align: center;
+}
+@media (max-width: 576px) {
+  .intro {
+    font-size: 35px;
+  }
+  .ankara-link {
+    display: block;
+    text-align: center;
+  }
+  .weather-link {
+    display: block;
+    text-align: center;
+  }
+  .header {
+    font-size: 25px;
+  }
+
+  mb-5 {
+    font-size: 25px;
+  }
 }
