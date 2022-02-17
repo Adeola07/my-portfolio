@@ -1,7 +1,19 @@
-body {
-  background-color: #385170;
+:root {
+  --primary-color: #385170;
+  --secondary-color: #ffcbcb;
 }
 
-h2 {
-  color: #ffb5b5;
+.intro {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  font-size: 60px;
+  font-family: "Nunito", sans-serif;
+}
+p {
+  text-align: center;
+  font-size: 50px;
 }
