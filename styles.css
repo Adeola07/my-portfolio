@@ -15,5 +15,27 @@
 }
 p {
   text-align: center;
-  font-size: 50px;
+  margin: 0;
+}
+.project {
+  color: var(--primary-color);
+  padding-top: 20px;
+}
+body {
+  background-color: var(--secondary-color);
+}
+.ankara-link {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.ankara-page {
+  font-size: 35px;
+  text-align: center;
+}
+.my-project {
+  font-size: 40px;
 }
