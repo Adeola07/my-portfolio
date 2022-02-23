@@ -24,10 +24,6 @@ p {
 body {
   background-color: var(--secondary-color);
 }
-img {
-  max-width: 100%;
-  height: auto;
-}
 .ankara-link {
   background-color: var(--primary-color);
   color: var(--hero-color);
@@ -77,7 +73,6 @@ button {
 }
 .header {
   font-size: 40px;
-  padding-top: 80px;
 }
 .deola-image {
   border-radius: 200px;
@@ -85,10 +80,25 @@ button {
   margin: 0 auto;
   width: 400px;
 }
+.about-header {
+  padding-top: 80px;
+  color: var(--primary-color);
+  font-size: 40px;
+}
+
 .about-content {
   font-size: 25px;
 
   color: var(--primary-color);
+}
+.work-content {
+  padding-top: 40px;
+  font-size: 25px;
+
+  color: var(--primary-color);
+}
+img {
+  padding-top: 80px;
 }
 @media (max-width: 576px) {
   .intro {
@@ -97,10 +107,12 @@ button {
   .ankara-link {
     display: block;
     text-align: center;
+    padding-top: 20px;
   }
   .weather-link {
     display: block;
     text-align: center;
+    padding-top: 20px;
   }
   .header {
     font-size: 25px;
@@ -111,12 +123,6 @@ button {
   }
   .hero {
     font-size: 20px;
-  }
-  .deola-image {
-    width: 300px;
-  }
-  .content {
-    color: var(--primary-color);
   }
   .about-content {
     font-size: 15px;
