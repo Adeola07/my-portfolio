@@ -115,6 +115,9 @@ button {
   .deola-image {
     width: 300px;
   }
+  .content {
+    color: var(--primary-color);
+  }
   .about-content {
     font-size: 15px;
   }
