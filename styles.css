@@ -73,10 +73,11 @@ button {
   text-align: center;
 }
 .hero {
-  font-size: 60px;
+  font-size: 80px;
 }
 .header {
   font-size: 40px;
+  padding-top: 80px;
 }
 .deola-image {
   border-radius: 200px;
@@ -86,8 +87,7 @@ button {
 }
 .about-content {
   font-size: 25px;
-  padding-top: 80px;
-  margin: 0 auto;
+
   color: var(--primary-color);
 }
 @media (max-width: 576px) {
@@ -111,5 +111,11 @@ button {
   }
   .hero {
     font-size: 20px;
+  }
+  .deola-image {
+    width: 300px;
+  }
+  .about-content {
+    font-size: 15px;
   }
 }
