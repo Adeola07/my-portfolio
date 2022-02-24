@@ -76,7 +76,7 @@ button {
 }
 .deola-image {
   border-radius: 200px;
-  padding-top: 80px;
+  padding-top: 10px;
   margin: 0 auto;
   width: 400px;
 }
@@ -138,5 +138,8 @@ img {
   }
   .about-content {
     font-size: 15px;
+  }
+  .email-link {
+    font-size: 20px;
   }
 }
