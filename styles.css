@@ -100,6 +100,18 @@ button {
 img {
   padding-top: 80px;
 }
+.email-icon {
+  text-align: center;
+  display: block;
+}
+
+.email-link {
+  text-align: center;
+  display: block;
+  font-size: 35px;
+  color: var(--primary-color);
+  text-decoration: none;
+}
 @media (max-width: 576px) {
   .intro {
     font-size: 35px;
