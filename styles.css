@@ -117,7 +117,6 @@ img {
   margin: 0 20px;
   color: var(--primary-color);
   font-size: 30px;
-  background-color: var(--hero-color);
 }
 .social-icon a {
   text-align: center;
