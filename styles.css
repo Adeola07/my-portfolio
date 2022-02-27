@@ -126,6 +126,9 @@ a {
   color: var(--primary-color);
   margin: 20px;
 }
+.tech {
+  font-size: 10px;
+}
 .weather-link {
   background-color: var(--primary-color);
   color: var(--hero-color);
@@ -155,6 +158,17 @@ a {
   text-decoration: none;
   font-size: 22px;
 }
+.project {
+  text-align: center;
+  display: block;
+  background-color: var(--primary-color);
+  color: var(--hero-color);
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
 .see-projects:hover {
   color: var(--secondary-color);
   cursor: pointer;
